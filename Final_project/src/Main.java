@@ -17,7 +17,7 @@ class MainFrame extends JFrame {
     };
 
     MainFrame() {
-        this.setTitle("Hopelist");
+        this.setTitle("Wishlist");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setSize(600, 400);
         this.setVisible(true);
@@ -69,7 +69,7 @@ class MainFrame extends JFrame {
         JScrollPane listScrollPane = new JScrollPane(list);
         listScrollPane.setPreferredSize(new Dimension(270, 270));
         listPanel.add(new JScrollPane(listScrollPane));
-        listPanel.add(new JLabel("Your Hope list"));
+        listPanel.add(new JLabel("Your Wishlist"));
         listPanel.add(new JScrollPane(hopeList));
 
         JPanel buttonPanel = new JPanel();
